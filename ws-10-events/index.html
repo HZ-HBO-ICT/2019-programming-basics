@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Boodschappenlijstje</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="shopping-list-form">
+            <form action="#" id="shopping-list">
+                <div class="add-label">
+                    <label for="product">Voeg hier je Boodschappen toe:</label>
+                </div>
+                <div class="add-field">
+                    <input type="text" placeholder="Product" name="product" id="product" autofocus />
+                </div>
+                <div class="add-field">
+                    <label for="price" class="hidden-label">Voeg hier je Prijs toe:</label>
+                    <input type="number" placeholder="0.00" name="price" id="price" />
+                </div>
+                <div class="add-button">
+                    <input type="submit" value="Voeg toe" id="submit" />
+                </div>
+            </form>
+        </div>
+        <div class="products">
+            <table class="products-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Prijs</th>
+                        <th>Verwijder</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td>Totaalprijs</td>
+                        <td id="total-price">0.00</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+                <tbody id="product-list"></tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/js/app.js"></script>
+</body>
+
+</html>

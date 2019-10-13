@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#container {
+    margin: 5px auto;
+    width: 800px;
+}
+
+.shopping-list-form {
+    float: left;
+    width: 300px;
+}
+
+.shopping-list-form div {
+    margin-top: 5px;
+}
+
+div.add-label {
+    font-size: 18px;
+}
+
+div.add-field {
+    text-align: center;
+    margin-right: 8px;
+    float: left;
+}
+
+div.add-field input {
+    width: 135px;
+}
+
+div.add-field .hidden-label {
+    display: none;
+}
+
+div.add-button {
+    margin-top: 5px;
+    float: left;
+}
+
+div.add-button span.error {
+    color: #FF0000;
+}
+
+.products {
+    float: left;
+    width: 499px;
+    min-height: 100px;
+    border-left: 1px solid #000000;
+}
+
+.products-table {
+    width: 499px;
+}
+
+.products-table th,
+.products-table td {
+    width: 160px;
+    text-align: center;
+}
+
+.products-table thead th {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.products-table tfoot td {
+    font-weight: bold;
+    background-color: #66CCFF;
+}
+
+.products-table tbody td {
+    background-color: #CCCCCC;
+}
+
+.products-table tbody td.remove-cell {
+    background-color: #FF0000;
+    cursor: pointer;
+}
