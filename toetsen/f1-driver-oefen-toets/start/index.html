@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Racing</title>
+</head>
+
+<body>
+    <h1>Laptimes</h1>
+    <form action="#">
+        <select name="driver" id="driver">
+            <option value="Ricciardo">Ricciardo</option>
+            <option value="Verstappen">Verstappen</option>
+        </select>
+        <input type="number" id="lapTime">
+        <input type="submit" value="submit" id="submit">
+    </form>
+    <h2>Total</h2>
+    <div class="laps" id="laps">
+        <!-- example: add this table dynamically from JS using DOM methods -->
+        <table>
+            <tr>
+                <th>Driver</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Ricciardo</td>
+                <td>20.5</td>
+            </tr>
+            <tr>
+                <td>Verstappen</td>
+                <td>19.5</td>
+            </tr>
+        </table>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
